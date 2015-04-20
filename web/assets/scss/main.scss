@@ -1,0 +1,13 @@
+$kleur: #eee;
+
+body {
+    background: red;
+    
+    p {
+        color: $kleur;
+    }
+    
+    hr {
+        color: blue;
+    }
+}
