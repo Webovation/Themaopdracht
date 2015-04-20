@@ -1,13 +1,182 @@
-$kleur: #eee;
+/*
+* Themaopdracht V0.1
+* Copyright 2015, Groep 2
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 20/04/2015
+*/
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Variables
+- Base Styles
+
+- Header
+- Navigation
+*/
+
+/* Variables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$wrapper: 1170px;
+
+$primary: #3552B3;
+$secondary: #ff4E51;
+
+$font: #343434;
+$link: $font;
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,700,300,600,400);
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
 
 body {
-    background: red;
+    font-family: "Open Sans", Arial;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    display: block;
+    margin: 0 auto;
+    max-width: $wrapper;
+    width: 100%;
+}
+
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#header {
+    text-transform: uppercase;
     
-    p {
-        color: $kleur;
+    .left {
+        float: left;
     }
     
-    hr {
-        color: blue;
+    .right { 
+        float: right;
+    }
+    
+    #top {
+        width: 100%;
+        height: 45px;
+        
+        background: #1e5799; /* Old browsers */
+        background: -moz-linear-gradient(45deg,  #1e5799 0%, #334aa1 24%, #3552b3 50%, #334aa1 75%, #1e5799 100%, #334aa1 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#1e5799), color-stop(24%,#334aa1), color-stop(50%,#3552b3), color-stop(75%,#334aa1), color-stop(100%,#1e5799), color-stop(100%,#334aa1)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(45deg,  #1e5799 0%,#334aa1 24%,#3552b3 50%,#334aa1 75%,#1e5799 100%,#334aa1 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(45deg,  #1e5799 0%,#334aa1 24%,#3552b3 50%,#334aa1 75%,#1e5799 100%,#334aa1 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(45deg,  #1e5799 0%,#334aa1 24%,#3552b3 50%,#334aa1 75%,#1e5799 100%,#334aa1 100%); /* IE10+ */
+        background: linear-gradient(45deg,  #1e5799 0%,#334aa1 24%,#3552b3 50%,#334aa1 75%,#1e5799 100%,#334aa1 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#334aa1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+        
+        .left, .right {
+            color: #FFF;
+            
+            a {
+                color: #FFF;
+                line-height: 45px;
+                
+                i {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    
+    #bottom {
+        width: 100%;
+        height: 110px;
+        
+        text-transform: uppercase;
+        background: #FFF;
+        
+        .left {
+            a {
+                display: table-cell;
+                line-height: 110px;
+                
+                img {
+                    vertical-align: middle;
+                }
+            }
+        }
+        
+        .right {
+            color: $font;
+            font-weight: 600;
+            font-size: 20px;
+            padding-top: 30px;
+            
+            span {
+                color: $secondary;
+            }
+        }
+    }
+}
+
+/* Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#navigation {
+    background-image: url(../img/header.jpg);
+    bacground-size: cover;
+    
+    #top {
+        background: rgba(0, 0, 0, .5);
+        border-bottom: 2px solid $secondary;
+        
+        ul {
+            display: table;
+            margin: 0;
+            padding: 0;
+            
+            li {
+                display: inline-block;
+                float: left;
+                padding: 20px 0;
+                list-style: none;
+                
+                &:first-child a {
+                    padding-left: 30px;
+                }
+                
+                a {
+                    text-transform: uppercase;
+                    color: #FFF;
+                    font-weight: 600;
+                    padding: 20px 15px;
+                }
+            }
+        }
+    }
+    
+    #bottom {
+        position: relative;
+        margin-top: 100px;
+        background: #FFF;
+        padding: 20px 30px;
+        
+        h1 {
+            margin: 0;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        
+        #border {
+            position: absolute;
+            left: 30px;
+            bottom: 0;
+            right: 30px;
+            background: #eee;
+            height: 1px;
+        }
     }
 }
