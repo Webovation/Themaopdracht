@@ -40,13 +40,15 @@
 
             <div class="right">
                 Bel ons nu: <br />
-                <span>+(31) 123 456 789</span>
+                <span>+(31) 202 600 084</span>
             </div>
         </div>
     </div>
 </header>
 
+<!-- Primary Navigation -->
 <nav id="navigation">
+    <!-- Navigation -->
     <div id="top" class="wrapper">
         <ul>
             <li><a href="">Home</a></li>
@@ -54,9 +56,12 @@
         </ul>
     </div>
 
+    <!-- Page Title -->
     <div id="bottom" class="wrapper">
         <h1>Welkom bij Auto Totaal Diensten!</h1>
 
         <div id="border"></div>
     </div>
 </nav>
+
+<div id="body" class="wrapper">
