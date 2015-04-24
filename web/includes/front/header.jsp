@@ -10,7 +10,7 @@
     <!-- Stylesheets -->
     <link href="assets/css/normalize.css" rel="stylesheet" type="text/css">
     <link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/main.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/front.css" rel="stylesheet" type="text/css">
     
     <!-- JavaScripts -->
     <script src="assets/js/jquery.min.js" type="text/javascript"></script>

@@ -53,9 +53,7 @@
     
     <div id="bottom">
         <div class="wrapper">
-            <div class="left">
-                Copyright &copy; Auto Totaal Dienst (ATD). All Rights Reserved.
-            </div>
+            Copyright &copy; Auto Totaal Dienst (ATD). All Rights Reserved.
         </div>
     </div>
 </footer>

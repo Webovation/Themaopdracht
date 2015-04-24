@@ -12,9 +12,9 @@
 - Base Styles
 
 - Header
+- Navigation
 - Body
 - Footer
-- Navigation
 */
 
 /* Variables
@@ -238,20 +238,14 @@ a {
     }
     
     #bottom {
-        text-transform: uppercase;
-        display: table;
-        width: 100%;
         padding: 10px 0;
         color: #ebebeb;
-        font-size: 10px;
         background: #111111;
+        text-align: center;
+        font-size: 10px;
         
-        .left {
-            float: left;
-        }
-        
-        .right {
-            float: right;
+        .wrapper {
+            opacity: 0.5;
         }
     }
 }
