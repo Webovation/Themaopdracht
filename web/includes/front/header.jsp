@@ -1,3 +1,5 @@
+<%@page import="java.util.Map"%>
+<%@page import="java.util.HashMap"%>
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -26,7 +28,7 @@
             </div>
 
             <div class="right">
-                <a href="">Inloggen</a> | <a href="">Registreren</a>
+                <a href="?p=login">Inloggen</a> | <a href="?p=register">Registreren</a>
             </div>
         </div>
     </div>
@@ -58,7 +60,15 @@
 
     <!-- Page Title -->
     <div id="bottom" class="wrapper">
-        <h1>Welkom bij Auto Totaal Diensten!</h1>
+        <%
+            Map<String, String> titles = new HashMap<String, String>();
+            titles.put("login", "Inloggen");
+            titles.put("register", "Account Aanmaken");
+            
+            String title = titles.get(request.getParameter("p"));
+        %>
+        
+        <h1><%= title %></h1>
 
         <div id="border"></div>
     </div>

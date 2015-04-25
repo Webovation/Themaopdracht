@@ -5,7 +5,7 @@
         <div class="wrapper">
             <div class="column">
                 <h2>Auto Totaal Diensten</h2>
-                <p>Bacon ipsum dolor amet kevin meatloaf doner cupim pork loin leberkas ribeye. Frankfurter shoulder biltong, pork loin jerky corned beef picanha. Landjaeger picanha meatloaf prosciutto. Shankle venison kevin beef ribs cupim pancetta frankfurter shank meatball leberkas rump.</p>
+                <p>Bij ons bedrijf kunt u voor al uw autowerkzaamheden terecht, denk hierbij aan APK, reparaties tot auto parkeren en tanken. Via ons uitgebreide systeem kunt u zelf afspraken inboeken en bekijken, facturen direct inzien en betalen en noem maar op.</p>
             </div>
             
             <div class="column">
@@ -40,13 +40,32 @@
             
             <div class="column">
                 <h2>Contactgegevens</h2>
-                <p>
-                    Auto Totaal Diensten <br>
-                    Postbus 30435 <br>
-                    3513 AP Utrecht <br>
-                    t. +(31) 202 600 084 <br>
-                    f. +(31) 070 363 568
-                </p>
+                <table>
+                    <tr>
+                        <td>Naam:</td>
+                        <td>Auto Totaal Diensten</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Postbus:</td>
+                        <td>Postbus 30435</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Postcode:</td>
+                        <td>3513 AP Utrecht</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Telefoonnummer:</td>
+                        <td>+(31) 202 600 084</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Faxnummer:</td>
+                        <td>+(31) 070 363 568</td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
