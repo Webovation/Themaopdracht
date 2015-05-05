@@ -1,6 +1,6 @@
 <%@include file="includes/front/header.jsp" %>
 
-<% if(request.getParameter("p")!=null) { %>    
+<% if(request.getParameter("p") != null) { %>    
 
 <jsp:include page="<%="includes/front/"+request.getParameter("p")+".jsp"%>"/>
 
